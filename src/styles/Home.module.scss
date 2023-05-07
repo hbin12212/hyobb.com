@@ -1,0 +1,63 @@
+.Home {
+    background-color: #191919;
+    height: 100vh;
+    color: white;
+    .header {
+        border-bottom: var(--gray) 1px solid;
+        height: 60px;
+        margin-bottom: 30px;
+    }
+    .main {
+        display: grid;
+        grid-template-columns: 1.2fr 2fr 1.2fr;
+    }
+}
+
+.about {
+    .intro {
+        text-align: center;
+        font-size: var(--large);
+        font-weight: 700;
+        margin-bottom: 30px;
+    }
+    .profile {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        .profile_img {
+            margin-right: 50px;
+        }
+        .profile_info {
+            .contact {
+                .contact_title {
+                    font-weight: 700;
+                    font-size: var(--medium);
+                    color: var(--purple);
+                    margin-bottom: 10px;
+                }
+                margin-bottom: 10px;
+            }
+            .channel {
+                .channel_title {
+                    font-weight: 700;
+                    font-size: var(--medium);
+                    color: var(--purple);
+                    margin-bottom: 10px;
+                }
+            }
+            .profile_item {
+                display: flex;
+                .label {
+                    margin-right: 10px;
+                }
+                .content {
+                    font-size: var(--small);
+                    a {
+                        color: var(--lightgray);
+                    }
+                }
+                margin-bottom: 5px;
+            }
+        }
+    }
+}
