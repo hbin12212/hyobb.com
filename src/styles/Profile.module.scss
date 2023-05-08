@@ -44,6 +44,9 @@
                     .channel_mb {
                         display: none;
                     }
+                    .contact_title_mb {
+                        display: none;
+                    }
                     .profile_item {
                         display: flex;
                         .label {
@@ -75,7 +78,7 @@
                 .profile_img_pc {
                     display: none;
                 }
-                .contact_title {
+                .contact_title_mb {
                     font-weight: 700;
                     font-size: var(--medium);
                     color: var(--purple);

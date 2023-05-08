@@ -68,7 +68,7 @@ const Profile = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div className={styles.contact_title}>Contact & Channel.</div>
+                            <div className={styles.contact_title_mb}>Contact & Channel.</div>
                             <div className={styles.contact_mb}>
                                 <div className={styles.profile_item}>
                                     <div className={styles.content}>
