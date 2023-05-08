@@ -36,7 +36,7 @@ const Profile = () => {
                             <div className={styles.channel_pc}>
                                 <div className={styles.channel_title}>Channel</div>
                                 <div className={styles.profile_item}>
-                                    <div className={styles.label}>Twitter</div>
+                                    <div className={styles.label}>Twitter.</div>
                                     <div className={styles.content}>
                                         <a href="https://twitter.com/hyob1221" target="_blank">
                                             https://twitter.com/hyob1221
