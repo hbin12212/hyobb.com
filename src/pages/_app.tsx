@@ -15,7 +15,7 @@ export default function App({ Component, pageProps }: AppProps) {
                 <title>Hyobin</title>
                 <meta name="description" content="hyobin page" />
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
-                <link rel="icon" href="/favicon.ico" />
+                <link rel="icon" href="/imgs/hyobin.png" />
             </Head>
             <Component {...pageProps} />
         </div>
