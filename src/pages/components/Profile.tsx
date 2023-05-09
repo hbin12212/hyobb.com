@@ -46,8 +46,8 @@ const Profile = () => {
                                 <div className={styles.profile_item}>
                                     <div className={styles.label}>Inflearn.</div>
                                     <div className={styles.content}>
-                                        <a href="https://inf.run/DqNW" target="_blank">
-                                            https://inf.run/DqNW
+                                        <a href="https://inf.run/arGF" target="_blank">
+                                            https://inf.run/arGF
                                         </a>
                                     </div>
                                 </div>
@@ -93,7 +93,7 @@ const Profile = () => {
                             <div className={styles.channel_mb}>
                                 <div className={styles.profile_item}>
                                     <div className={styles.content}>
-                                        <a href="https://inf.run/DqNW" target="_blank">
+                                        <a href="https://inf.run/arGF" target="_blank">
                                             Inflearn
                                         </a>
                                     </div>
