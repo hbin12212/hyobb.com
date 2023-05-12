@@ -60,7 +60,7 @@ const Profile = () => {
                                     </div>
                                 </div>
                                 <div className={styles.profile_item}>
-                                    <div className={styles.label}>GitBook.</div>
+                                    <div className={styles.label}>Javascript.</div>
                                     <div className={styles.content}>
                                         <a href="https://one-step-js.hyobb.com/" target="_blank">
                                             https://one-step-js.hyobb.com/
@@ -108,7 +108,7 @@ const Profile = () => {
                                 <div className={styles.profile_item}>
                                     <div className={styles.content}>
                                         <a href="https://one-step-js.hyobb.com/" target="_blank">
-                                            GitBook
+                                            Javascript
                                         </a>
                                     </div>
                                 </div>
