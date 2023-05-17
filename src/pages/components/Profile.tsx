@@ -10,10 +10,10 @@ const Profile = () => {
                     <div className={styles.intro}>HYOBIN | FrontEnd Developer</div>
                     <div className={styles.profile}>
                         <div className={styles.profile_img_pc}>
-                            <Image src="/imgs/hyobin.png" width={220} height={220} alt="hyobin"></Image>
+                            <Image src="/imgs/hyobin.png" width={220} height={220} alt="hyobin_pc"></Image>
                         </div>
                         <div className={styles.profile_img_mb}>
-                            <Image src="/imgs/hyobin.png" width={180} height={180} alt="hyobin"></Image>
+                            <Image src="/imgs/hyobin.png" width={180} height={180} alt="hyobin_mb"></Image>
                         </div>
                         <div className={styles.profile_info}>
                             <div className={styles.contact_pc}>
@@ -34,7 +34,7 @@ const Profile = () => {
                                 </div>
                             </div>
                             <div className={styles.channel_pc}>
-                                <div className={styles.channel_title}>Channel</div>
+                                <div className={styles.channel_title}>Channel.</div>
                                 <div className={styles.profile_item}>
                                     <div className={styles.label}>Twitter.</div>
                                     <div className={styles.content}>
