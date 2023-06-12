@@ -1,11 +1,12 @@
-import '@/styles/globals.scss';
-import Head from 'next/head';
-import type { AppProps } from 'next/app';
-import { Noto_Sans_KR } from 'next/font/google';
+import "@/styles/globals.scss";
+import Head from "next/head";
+import type { AppProps } from "next/app";
+import { Noto_Sans_KR } from "next/font/google";
+import { Analytics } from "@vercel/analytics/react";
 
 const notoSans = Noto_Sans_KR({
-    weight: ['300', '400', '700'],
-    subsets: ['latin'],
+    weight: ["300", "400", "700"],
+    subsets: ["latin"],
 });
 
 export default function App({ Component, pageProps }: AppProps) {
@@ -22,6 +23,7 @@ export default function App({ Component, pageProps }: AppProps) {
                 <meta name="description" content="hyobin page" />
             </Head>
             <Component {...pageProps} />
+            <Analytics />
         </div>
     );
 }
