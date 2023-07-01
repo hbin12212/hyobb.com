@@ -1,6 +1,6 @@
 .Profile {
     display: grid;
-    grid-template-columns: 1.2fr 2fr 1.2fr;
+    grid-template-columns: 1fr 2fr 1fr;
 
     .about {
         @media (min-width: 800px) {
