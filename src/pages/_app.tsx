@@ -1,17 +1,12 @@
 import '@/styles/globals.scss';
 import Head from 'next/head';
+import Layout from '@/components/Layout';
 import type { AppProps } from 'next/app';
-import { Noto_Sans_KR } from 'next/font/google';
 import { Analytics } from '@vercel/analytics/react';
-
-const notoSans = Noto_Sans_KR({
-    weight: ['300', '400', '700'],
-    subsets: ['latin'],
-});
 
 export default function App({ Component, pageProps }: AppProps) {
     return (
-        <div className={notoSans.className}>
+        <Layout>
             <Head>
                 <title>Hyobin</title>
                 <meta
@@ -22,8 +17,8 @@ export default function App({ Component, pageProps }: AppProps) {
                 <link rel="icon" href="/imgs/profile_img.png" />
                 <meta name="description" content="hyobin's page" />
             </Head>
-            <Component {...pageProps} />
             <Analytics />
-        </div>
+            <Component {...pageProps} />
+        </Layout>
     );
 }
