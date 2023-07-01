@@ -1,7 +1,7 @@
-import styles from "@/styles/Profile.module.scss";
-import Image from "next/image";
+import styles from '@/styles/Profile.module.scss';
+import Image from 'next/image';
 
-const Profile = () => {
+export default function Profile() {
     return (
         <div className={styles.Profile}>
             <div></div>
@@ -10,10 +10,10 @@ const Profile = () => {
                     <div className={styles.intro}>HYOBIN | FrontEnd Developer</div>
                     <div className={styles.profile}>
                         <div className={styles.profile_img_pc}>
-                            <Image src="/imgs/hyobin.png" width={220} height={220} alt="hyobin_pc"></Image>
+                            <Image alt="profile_pc" src="/imgs/profile_img.png" width={220} height={220}></Image>
                         </div>
                         <div className={styles.profile_img_mb}>
-                            <Image src="/imgs/hyobin.png" width={180} height={180} alt="hyobin_mb"></Image>
+                            <Image alt="profile_mb" src="/imgs/profile_img.png" width={180} height={180}></Image>
                         </div>
                         <div className={styles.profile_info}>
                             <div className={styles.contact_pc}>
@@ -46,8 +46,8 @@ const Profile = () => {
                                 <div className={styles.profile_item}>
                                     <div className={styles.label}>Inflearn.</div>
                                     <div className={styles.content}>
-                                        <a href="https://inf.run/arGF" target="_blank">
-                                            https://inf.run/arGF
+                                        <a href="https://www.inflearn.com/users/@hyobb" target="_blank">
+                                            https://www.inflearn.com/users/@hyobb
                                         </a>
                                     </div>
                                 </div>
@@ -93,7 +93,7 @@ const Profile = () => {
                             <div className={styles.channel_mb}>
                                 <div className={styles.profile_item}>
                                     <div className={styles.content}>
-                                        <a href="https://inf.run/arGF" target="_blank">
+                                        <a href="https://www.inflearn.com/users/@hyobb" target="_blank">
                                             Inflearn
                                         </a>
                                     </div>
@@ -120,6 +120,4 @@ const Profile = () => {
             <div></div>
         </div>
     );
-};
-
-export default Profile;
+}
