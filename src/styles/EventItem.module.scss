@@ -1,0 +1,152 @@
+.EventItem {
+    a {
+        text-decoration: none;
+    }
+    a :hover {
+        background-color: rgb(36, 36, 36, 0.8);
+    }
+    @media (min-width: 801px) {
+        .event_item {
+            color: white;
+            padding: 20px;
+            border-radius: 12px;
+            margin-right: 10px;
+            margin-bottom: 20px;
+            display: flex;
+            background-color: var(--darkgray);
+            min-width: 600px;
+        }
+        .event_item {
+            .thumbnail_pc {
+                margin-right: 30px;
+            }
+            .thumbnail_mb {
+                display: none;
+            }
+            .event_info {
+                display: grid;
+                gap: 3px;
+                .title {
+                    font-size: var(--regular);
+                    font-weight: 400;
+                }
+                .description {
+                    font-size: var(--small);
+                }
+                .tags {
+                    display: flex;
+                    .status_end {
+                        background-color: var(--lightgray);
+                        color: var(--gray);
+                        font-weight: 700;
+                        padding: 0px 10px;
+                        width: fit-content;
+                        border-radius: 20px;
+                        font-size: var(--xsmall);
+                        display: flex;
+                        align-items: center;
+                    }
+                    .status_progress {
+                        background-color: var(--primary_tag_bg);
+                        color: var(--primary_tag);
+                        font-weight: 700;
+                        padding: 0px 10px;
+                        width: fit-content;
+                        border-radius: 20px;
+                        font-size: var(--xsmall);
+                        display: flex;
+                        align-items: center;
+                    }
+                    .discount_rate {
+                        margin-left: 10px;
+                        background-color: var(--primary_tag_bg);
+                        color: var(--primary_tag);
+                        font-weight: 700;
+                        padding: 0px 10px;
+                        width: fit-content;
+                        border-radius: 20px;
+                        font-size: var(--xsmall);
+                        display: flex;
+                        align-items: center;
+                    }
+                }
+                .date {
+                    margin-top: 3px;
+                    font-size: var(--xsmall);
+                    color: var(--lightgray);
+                }
+            }
+        }
+    }
+    @media (max-width: 800px) {
+        .event_item {
+            color: white;
+            padding: 20px;
+            border-radius: 12px;
+            margin-right: 10px;
+            margin-bottom: 20px;
+            background-color: var(--darkgray);
+        }
+        .event_item {
+            .thumbnail_mb {
+                display: block;
+            }
+            .thumbnail_pc {
+                display: none;
+            }
+            .event_info {
+                display: grid;
+                gap: 3px;
+                .title {
+                    font-size: var(--regular);
+                    font-weight: 400;
+                }
+                .description {
+                    font-size: var(--small);
+                }
+                .tags {
+                    display: flex;
+                    .status_end {
+                        background-color: var(--lightgray);
+                        color: var(--gray);
+                        font-weight: 700;
+                        padding: 0px 10px;
+                        width: fit-content;
+                        border-radius: 20px;
+                        font-size: var(--xsmall);
+                        display: flex;
+                        align-items: center;
+                    }
+                    .status_progress {
+                        background-color: var(--primary_tag_bg);
+                        color: var(--primary_tag);
+                        font-weight: 700;
+                        padding: 0px 10px;
+                        width: fit-content;
+                        border-radius: 20px;
+                        font-size: var(--xsmall);
+                        display: flex;
+                        align-items: center;
+                    }
+                    .discount_rate {
+                        margin-left: 10px;
+                        background-color: var(--primary_tag_bg);
+                        color: var(--primary_tag);
+                        font-weight: 700;
+                        padding: 0px 10px;
+                        width: fit-content;
+                        border-radius: 20px;
+                        font-size: var(--xsmall);
+                        display: flex;
+                        align-items: center;
+                    }
+                }
+                .date {
+                    margin-top: 3px;
+                    font-size: var(--xsmall);
+                    color: var(--lightgray);
+                }
+            }
+        }
+    }
+}
