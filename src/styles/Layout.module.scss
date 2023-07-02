@@ -1,10 +1,11 @@
 .Layout {
-    background-color: var(--darkgray);
-    height: 100vh;
+    background-color: var(--background);
+    min-height: 100vh;
     color: white;
+    padding-bottom: 30px;
     .header {
         border-bottom: var(--gray) 1px solid;
-        background-color: var(--darkgray);
+        background-color: var(--background);
         opacity: 0.9;
         height: 60px;
         margin-bottom: 30px;
