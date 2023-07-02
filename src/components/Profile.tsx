@@ -4,7 +4,6 @@ import Image from 'next/image';
 export default function Profile() {
     return (
         <div className={styles.Profile}>
-            <div></div>
             <div>
                 <div className={styles.about}>
                     <div className={styles.intro}>HYOBIN | FrontEnd Developer</div>
@@ -117,7 +116,6 @@ export default function Profile() {
                     </div>
                 </div>
             </div>
-            <div></div>
         </div>
     );
 }
