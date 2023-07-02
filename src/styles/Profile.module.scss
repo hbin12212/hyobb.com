@@ -3,7 +3,7 @@
         @media (min-width: 800px) {
             .intro {
                 text-align: center;
-                font-size: var(--large);
+                font-size: var(--xlarge);
                 font-weight: 700;
                 margin-bottom: 30px;
             }
@@ -21,7 +21,7 @@
                     .contact_pc {
                         .contact_title {
                             font-weight: 700;
-                            font-size: var(--medium);
+                            font-size: var(--regular);
                             color: var(--primary);
                             margin-bottom: 10px;
                         }
@@ -30,7 +30,7 @@
                     .channel_pc {
                         .channel_title {
                             font-weight: 700;
-                            font-size: var(--medium);
+                            font-size: var(--regular);
                             color: var(--primary);
                             margin-bottom: 10px;
                         }
@@ -63,7 +63,7 @@
         @media (max-width: 800px) {
             .intro {
                 text-align: center;
-                font-size: var(--regular);
+                font-size: var(--large);
                 font-weight: 700;
                 margin-bottom: 30px;
             }

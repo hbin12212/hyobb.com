@@ -1,13 +1,17 @@
 :root {
     //fontSize
-    --large: 44px;
-    --regular: 30px;
-    --medium: 20px;
-    --small: 15px;
+    --xlarge: 44px;
+    --large: 30px;
+    --regular: 20px;
+    --medium: 18px;
+    --samll: 15px;
+    --xsmall: 13px;
 
     // color
     --background: #181818;
     --primary: #ac94f4;
+    --primary_tag: #602bff;
+    --primary_tag_bg: #beacf4;
     --darkgray: #242424;
     --gray: rgb(68, 68, 68);
     --lightgray: rgb(172, 172, 172);
