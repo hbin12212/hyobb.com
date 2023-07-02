@@ -1,2 +1,13 @@
 .Home {
+    .line {
+        border-bottom: var(--gray) 1px solid;
+        margin-bottom: 50px;
+        margin-top: 50px;
+    }
+    .label {
+        color: var(--primary);
+        font-weight: 400;
+        font-size: var(--large);
+        margin-bottom: 20px;
+    }
 }

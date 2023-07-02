@@ -1,116 +1,114 @@
 .Profile {
-    .about {
-        @media (min-width: 800px) {
-            .intro {
-                text-align: center;
-                font-size: var(--xlarge);
-                font-weight: 700;
-                margin-bottom: 30px;
+    @media (min-width: 801px) {
+        .intro {
+            text-align: center;
+            font-size: var(--xlarge);
+            font-weight: 700;
+            margin-bottom: 30px;
+        }
+        .profile {
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            .profile_img_mb {
+                display: none;
             }
-            .profile {
-                display: flex;
-                justify-content: space-evenly;
-                align-items: center;
-                .profile_img_mb {
-                    display: none;
-                }
-                .profile_img_pc {
-                    margin-right: 50px;
-                }
-                .profile_info {
-                    .contact_pc {
-                        .contact_title {
-                            font-weight: 700;
-                            font-size: var(--regular);
-                            color: var(--primary);
-                            margin-bottom: 10px;
-                        }
+            .profile_img_pc {
+                margin-right: 50px;
+            }
+            .profile_info {
+                .contact_pc {
+                    .contact_title {
+                        font-weight: 700;
+                        font-size: var(--regular);
+                        color: var(--primary);
                         margin-bottom: 10px;
                     }
-                    .channel_pc {
-                        .channel_title {
-                            font-weight: 700;
-                            font-size: var(--regular);
-                            color: var(--primary);
-                            margin-bottom: 10px;
-                        }
-                    }
-                    .contact_mb {
-                        display: none;
-                    }
-                    .channel_mb {
-                        display: none;
-                    }
-                    .contact_title_mb {
-                        display: none;
-                    }
-                    .profile_item {
-                        display: flex;
-                        .label {
-                            margin-right: 10px;
-                        }
-                        .content {
-                            font-size: var(--small);
-                            a {
-                                color: var(--lightgray);
-                            }
-                        }
-                        margin-bottom: 5px;
+                    margin-bottom: 10px;
+                }
+                .channel_pc {
+                    .channel_title {
+                        font-weight: 700;
+                        font-size: var(--regular);
+                        color: var(--primary);
+                        margin-bottom: 10px;
                     }
                 }
-            }
-        }
-        @media (max-width: 800px) {
-            .intro {
-                text-align: center;
-                font-size: var(--large);
-                font-weight: 700;
-                margin-bottom: 30px;
-            }
-            .profile {
-                .profile_img_mb {
-                    text-align: center;
-                    margin-bottom: 30px;
+                .contact_mb {
+                    display: none;
                 }
-                .profile_img_pc {
+                .channel_mb {
                     display: none;
                 }
                 .contact_title_mb {
-                    font-weight: 700;
-                    font-size: var(--medium);
-                    color: var(--primary);
-                    margin-bottom: 12px;
-                    text-align: center;
+                    display: none;
                 }
-                .profile_info {
-                    .contact_mb {
-                        display: flex;
-                        justify-content: space-around;
+                .profile_item {
+                    display: flex;
+                    .label {
+                        margin-right: 10px;
                     }
-                    .channel_mb {
-                        display: flex;
-                        justify-content: space-around;
-                    }
-                    .contact_pc {
-                        display: none;
-                    }
-                    .channel_pc {
-                        display: none;
-                    }
-                    .profile_item {
-                        display: flex;
-                        .label {
-                            margin-right: 10px;
+                    .content {
+                        font-size: var(--small);
+                        a {
+                            color: var(--lightgray);
                         }
-                        .content {
-                            font-size: var(--small);
-                            a {
-                                color: var(--lightgray);
-                                text-decoration: none;
-                            }
-                        }
-                        margin-bottom: 5px;
                     }
+                    margin-bottom: 5px;
+                }
+            }
+        }
+    }
+    @media (max-width: 800px) {
+        .intro {
+            text-align: center;
+            font-size: var(--large);
+            font-weight: 700;
+            margin-bottom: 30px;
+        }
+        .profile {
+            .profile_img_mb {
+                text-align: center;
+                margin-bottom: 30px;
+            }
+            .profile_img_pc {
+                display: none;
+            }
+            .contact_title_mb {
+                font-weight: 700;
+                font-size: var(--medium);
+                color: var(--primary);
+                margin-bottom: 12px;
+                text-align: center;
+            }
+            .profile_info {
+                .contact_mb {
+                    display: flex;
+                    justify-content: space-around;
+                }
+                .channel_mb {
+                    display: flex;
+                    justify-content: space-around;
+                }
+                .contact_pc {
+                    display: none;
+                }
+                .channel_pc {
+                    display: none;
+                }
+                .profile_item {
+                    display: flex;
+                    .label {
+                        margin-right: 10px;
+                    }
+                    .content {
+                        font-size: var(--small);
+                        a {
+                            color: var(--lightgray);
+                            text-decoration: none;
+                        }
+                    }
+                    margin-bottom: 5px;
                 }
             }
         }
