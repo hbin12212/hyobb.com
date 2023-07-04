@@ -6,7 +6,7 @@
         background-color: rgb(41, 41, 41);
     }
 
-    @media (min-width: 801px) {
+    @media (min-width: 701px) {
         .event_item {
             color: white;
             padding: 20px;
@@ -14,7 +14,7 @@
             margin-bottom: 20px;
             display: flex;
             background-color: var(--darkgray);
-            min-width: 600px;
+            min-width: 550px;
         }
         .event_item {
             .thumbnail_pc {
@@ -78,7 +78,7 @@
             }
         }
     }
-    @media (max-width: 800px) {
+    @media (max-width: 700px) {
         .event_item {
             color: white;
             padding: 20px;
@@ -88,7 +88,7 @@
         }
         .event_item {
             .thumbnail_mb {
-                display: block;
+                display: none;
             }
             .thumbnail_pc {
                 display: none;
