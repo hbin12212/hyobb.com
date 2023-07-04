@@ -9,6 +9,51 @@
 
     .main {
         height: 100%;
+        .home {
+            font-size: var(--medium);
+            font-weight: 700;
+            a {
+                color: var(--primary);
+            }
+        }
+        .menu {
+            display: flex;
+
+            .events_cliked {
+                a {
+                    color: var(--primary);
+                }
+            }
+            .events {
+                font-size: var(--small);
+                a {
+                    color: white;
+                }
+            }
+
+            .events :hover {
+                color: var(--primary);
+                font-weight: 400;
+            }
+            .news_clicked {
+                margin-left: 20px;
+                a {
+                    color: var(--primary);
+                }
+            }
+            .news {
+                margin-left: 20px;
+                font-size: var(--small);
+                a {
+                    color: white;
+                }
+            }
+
+            .news :hover {
+                color: var(--primary);
+                font-weight: 400;
+            }
+        }
     }
 
     @media (min-width: 801px) {
@@ -19,34 +64,6 @@
             max-width: 750px;
             margin: 0 auto;
             padding: 0px 20px;
-            .home {
-                font-size: var(--medium);
-                font-weight: 700;
-                a {
-                    color: var(--primary);
-                }
-            }
-            .menu {
-                display: flex;
-                a {
-                    color: white;
-                }
-                .events {
-                    font-size: var(--small);
-                }
-                .events :hover {
-                    color: var(--primary);
-                    font-weight: 400;
-                }
-                .experiences {
-                    margin-left: 20px;
-                    font-size: var(--small);
-                }
-                .experiences :hover {
-                    color: var(--primary);
-                    font-weight: 400;
-                }
-            }
         }
     }
     @media (max-width: 800px) {
@@ -57,34 +74,6 @@
             max-width: 600px;
             margin: 0 auto;
             padding: 0px 20px;
-            .home {
-                font-size: var(--medium);
-                font-weight: 700;
-                a {
-                    color: var(--primary);
-                }
-            }
-            .menu {
-                display: flex;
-                a {
-                    color: white;
-                }
-                .events {
-                    font-size: var(--small);
-                }
-                .events :hover {
-                    color: var(--primary);
-                    font-weight: 400;
-                }
-                .experiences {
-                    margin-left: 20px;
-                    font-size: var(--small);
-                }
-                .experiences :hover {
-                    color: var(--primary);
-                    font-weight: 400;
-                }
-            }
         }
     }
 }

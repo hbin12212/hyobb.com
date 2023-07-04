@@ -7,8 +7,9 @@ export default function Home() {
         <div className={styles.Home}>
             <Profile></Profile>
             <div className={styles.line}></div>
-            <div className={styles.label}>Event.</div>
+            <div className={styles.label}>Latest Event.</div>
             <NewEvent></NewEvent>
+            <div className={styles.line}></div>
         </div>
     );
 }
