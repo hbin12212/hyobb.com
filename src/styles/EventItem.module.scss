@@ -6,7 +6,7 @@
         background-color: rgb(41, 41, 41);
     }
 
-    @media (min-width: 701px) {
+    @media (min-width: 801px) {
         .event_item {
             color: white;
             padding: 20px;
@@ -78,7 +78,7 @@
             }
         }
     }
-    @media (max-width: 700px) {
+    @media (max-width: 800px) {
         .event_item {
             color: white;
             padding: 20px;
