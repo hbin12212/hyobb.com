@@ -1,0 +1,90 @@
+.Header {
+    a {
+        text-decoration: none;
+    }
+    width: 100%;
+    border-bottom: var(--gray) 1px solid;
+    background-color: var(--background);
+    height: 60px;
+
+    .main {
+        height: 100%;
+    }
+
+    @media (min-width: 801px) {
+        .main {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            max-width: 750px;
+            margin: 0 auto;
+            padding: 0px 20px;
+            .home {
+                font-size: var(--medium);
+                font-weight: 700;
+                a {
+                    color: var(--primary);
+                }
+            }
+            .menu {
+                display: flex;
+                a {
+                    color: white;
+                }
+                .events {
+                    font-size: var(--small);
+                }
+                .events :hover {
+                    color: var(--primary);
+                    font-weight: 400;
+                }
+                .experiences {
+                    margin-left: 20px;
+                    font-size: var(--small);
+                }
+                .experiences :hover {
+                    color: var(--primary);
+                    font-weight: 400;
+                }
+            }
+        }
+    }
+    @media (max-width: 800px) {
+        .main {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 0px 20px;
+            .home {
+                font-size: var(--medium);
+                font-weight: 700;
+                a {
+                    color: var(--primary);
+                }
+            }
+            .menu {
+                display: flex;
+                a {
+                    color: white;
+                }
+                .events {
+                    font-size: var(--small);
+                }
+                .events :hover {
+                    color: var(--primary);
+                    font-weight: 400;
+                }
+                .experiences {
+                    margin-left: 20px;
+                    font-size: var(--small);
+                }
+                .experiences :hover {
+                    color: var(--primary);
+                    font-weight: 400;
+                }
+            }
+        }
+    }
+}
