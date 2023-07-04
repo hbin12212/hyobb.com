@@ -1,5 +1,15 @@
 const eventData = [
     {
+        startedDate: '2023-07-04',
+        status: true,
+        thumbnail: '/imgs/js_thumbnail.png',
+        title: 'Chrome web store 등록 기념 이벤트',
+        url: 'https://velog.io/@hbin12212/Chrome-NewTab',
+        discountRate: 25,
+        lectureTitle: '웹 프론트엔드를 위한 자바스크립트 첫 걸음',
+        description: '강의 최종 프로젝트 크롬 웹 스토어에 출시 기념 이벤트',
+    },
+    {
         startedDate: '2023-06-21',
         status: false,
         thumbnail: '/imgs/js_thumbnail.png',
